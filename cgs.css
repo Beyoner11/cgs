@@ -1,0 +1,108 @@
+body{
+    margin:0;
+    padding:0 100px;
+    background-color:rgb(38 39 42) ;
+}
+.header{  
+    width:100%;
+    padding: 2px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo{
+color:rgb(208 213 221);
+font-size: 25px;
+font-weight: 600;
+}
+.navbar a{
+    color:rgb(208 213 221);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.navbar a:hover{
+    color:rgb(238 52 67);
+}
+main{
+    display:flex;
+    justify-content: space-between;
+    margin-top:85px;
+}
+h1{
+    color:rgb(208 213 221);
+    font-weight: 600;
+    font-size: 35px;
+    word-spacing: 7px;
+}
+.post{
+    color:rgb(238 52 67);
+    font-size: 20px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+pre{
+    color:rgb(208 213 221);
+    font-size: 14px;
+}
+.select-btn{
+    display:flex;
+    gap:30px;
+    align-items: center;
+}
+button{
+    padding:10px 30px;
+    border-radius: 5px;
+    background-color: transparent;
+    border-color: rgb(238 52 67);
+    color:rgb(238 52 67);
+    cursor: pointer;
+}
+.hire{
+    background-color: rgb(238 52 67);
+    color:rgb(38 39 42);
+    border:none;
+}
+button:hover{
+    background-color: rgb(238 52 67);
+    color:rgb(38 39 42);
+    border:none;
+}
+.image{
+    background-size:cover;
+    width:350px;
+    height:350px;
+    border:solid 1px transparent;
+    background:url('img/pexels-pixabay-264594.jpg') no-repeat;
+    background-size:cover;
+    border-radius:15px;
+    z-index:999;
+}
+.container{
+    position:absolute;
+    left:820px;
+    border:none;
+    height: 355px;
+    width: 355px;
+    background-color: rgb(238 52 67);
+   /* box-shadow: 3px 3px 6px 9px rgb(238 52 67);*/
+    filter: blur(3px);
+    border-radius: 15px;
+    z-index:99;
+}
+.icon{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap:25px;
+}
+.material-icons{
+    color:rgb(238 52 67);
+    border:solid 1px rgb(238 52 67);
+    border-radius: 50%;
+}
+.link{
+    border-radius: 12.5px;
+    width:25px;
+}
